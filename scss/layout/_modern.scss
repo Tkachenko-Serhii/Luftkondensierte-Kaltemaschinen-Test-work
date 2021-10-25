@@ -1,0 +1,33 @@
+.modern {
+  padding-bottom: 40px;
+
+  background: linear-gradient(180deg, #163da2 0%, #003584 100%);
+}
+.mod-text {
+  padding: 0 16px 0 16px;
+}
+
+.title-modern {
+  margin: 0;
+  margin-bottom: 16px;
+  color: #fbfdff;
+}
+
+.modern-desc {
+  font-family: Noto Sans;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: -0.4px;
+  color: #fbfdff;
+  &:not(:last-child) {
+    margin-bottom: 45px;
+  }
+
+  &--bold {
+    font-weight: bold;
+  }
+}
+
+.mod-img {
+  margin-bottom: 39px;
+}

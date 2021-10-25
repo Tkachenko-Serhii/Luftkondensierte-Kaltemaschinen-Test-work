@@ -1,0 +1,34 @@
+.title-hero {
+  font-family: Roboto Sans;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 1.53;
+  letter-spacing: -0.4px;
+  color: #1652ac;
+  padding: 0 32px 0 32px;
+  text-align: center;
+  margin: 0;
+}
+
+.title-hero::after {
+  content: "";
+  display: block;
+  align-items: center;
+  width: 227px;
+  height: 7px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: #edeff3;
+}
+.title {
+  font-family: Roboto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2.22;
+  text-align: center;
+  letter-spacing: 2.42px;
+  max-width: 295px;
+  margin: 0 auto;
+  color: #1652ac;
+}

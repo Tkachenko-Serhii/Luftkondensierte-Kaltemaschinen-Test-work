@@ -1,0 +1,40 @@
+@media screen and (min-width: 1200px) {
+  .logo {
+    margin-right: 135px;
+  }
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar {
+  padding: 0;
+  background-color: #ffffff !important;
+}
+.nav-item {
+  font-family: Noto Sans;
+  font-size: 17px;
+  line-height: 1.18;
+  letter-spacing: -0.32px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #45494f;
+  padding: 5px 15px;
+}
+
+.nav-link {
+  border: 2px solid transparent;
+  border-radius: 8px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #2e75ff;
+  border-color: #eaedf5;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}

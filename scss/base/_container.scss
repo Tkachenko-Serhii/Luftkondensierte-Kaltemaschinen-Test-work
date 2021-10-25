@@ -1,0 +1,25 @@
+@media screen and (min-width: 1200px) {
+  .doc-container {
+    padding-left: 121px;
+    padding-right: 121px;
+  }
+  .container {
+    padding: 0 121px 0 121px;
+  }
+}
+
+.container {
+  max-width: 1445px;
+  padding: 0 8px 0 8px;
+}
+
+.header-container {
+  mix-blend-mode: normal;
+  border-bottom: 1px solid #ffffff;
+  box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+}
+
+.container-fluid {
+  padding: 4px 0 4px 0;
+}
