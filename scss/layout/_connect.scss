@@ -1,0 +1,52 @@
+.connect {
+  padding: 48px 0 11px 0;
+  & > img {
+    margin: 0 auto;
+    margin-bottom: 27px;
+  }
+  &-desc {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: -0.4px;
+    color: #45494f;
+    padding: 0 30px 0 30px;
+    &-mod {
+      padding: 0 75px 0 30px;
+      margin-bottom: 50px;
+    }
+    & > .mail {
+      font-weight: 600;
+      text-decoration: none;
+      color: #2e75ff;
+    }
+  }
+
+  &-btn {
+    position: relative;
+    font-size: 18px;
+    line-height: 1.44;
+    color: #ffffff;
+    margin-top: 50px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 113px;
+      top: 25px;
+      border-right: 2px solid #ffffff;
+      border-bottom: 2px solid #ffffff;
+      width: 10px;
+      height: 10px;
+      transform: rotate(-45deg);
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      top: 48%;
+      left: 0;
+      width: 124px;
+      height: 2px;
+      background-color: #ffffff;
+    }
+  }
+}

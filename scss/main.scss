@@ -1,4 +1,5 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "./layout/normalize";
 @import "./base/container";
 @import "./layout/navigation";
 @import "./layout/title";
@@ -6,7 +7,8 @@
 @import "./layout/energi";
 @import "./layout/modern";
 @import "./layout/hottocold";
-
-img {
-  display: block;
-}
+@import "./layout/ihre";
+@import "./layout/haup";
+@import "./layout/dieser";
+@import "./layout/connect";
+@import "./layout/footer";

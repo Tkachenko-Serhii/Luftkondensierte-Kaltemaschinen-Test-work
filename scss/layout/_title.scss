@@ -1,34 +1,53 @@
 .title-hero {
-  font-family: Roboto Sans;
   font-weight: bold;
   font-size: 34px;
   line-height: 1.53;
   letter-spacing: -0.4px;
   color: #1652ac;
-  padding: 0 32px 0 32px;
   text-align: center;
   margin: 0;
+  &::after {
+    content: "";
+    display: block;
+    align-items: center;
+    width: 227px;
+    height: 7px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: #edeff3;
+  }
 }
 
-.title-hero::after {
-  content: "";
-  display: block;
-  align-items: center;
-  width: 227px;
-  height: 7px;
-  margin: 0 auto;
-  margin-top: 40px;
-  background-color: #edeff3;
-}
 .title {
-  font-family: Roboto Sans;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2.22;
   text-align: center;
   letter-spacing: 2.42px;
+  text-transform: uppercase;
   max-width: 295px;
   margin: 0 auto;
+  margin-bottom: 40px;
   color: #1652ac;
+
+  &-modern {
+    margin-bottom: 16px;
+    color: #fbfdff;
+  }
+  &-black {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 2.42px;
+    color: #020303;
+    &-mod {
+      padding: 0 25px;
+    }
+  }
+  &-transform {
+    text-transform: none;
+    margin-bottom: 32px;
+  }
 }

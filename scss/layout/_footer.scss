@@ -1,0 +1,36 @@
+.footer {
+  padding: 45px 32px;
+  background-color: #fbfbfc;
+
+  &-text {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: -0.4px;
+    color: #a3adba;
+    &-mod {
+      font-weight: normal;
+      color: #9eabbb;
+    }
+  }
+
+  &-contact {
+    margin-bottom: 20px;
+  }
+}
+
+.phone {
+  color: #45494f;
+  &-title {
+    color: #7c848d;
+  }
+}
+
+.address {
+  padding-right: 165px;
+}
+
+a.footer-link {
+  line-height: 2.62;
+  text-decoration: underline;
+}
