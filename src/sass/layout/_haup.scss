@@ -39,9 +39,11 @@
 
 .carousel-control-prev {
   visibility: hidden;
+  top: 840px;
 }
 .carousel-control-next {
   visibility: hidden;
+  top: 840px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -71,6 +73,25 @@
     width: 610px;
     height: 813px;
     margin-bottom: 185px;
+    &-indicators {
+      [data-bs-target] {
+        width: 7px;
+        height: 7px;
+        padding: 0;
+        margin-right: 12px;
+        margin-left: 12px;
+        text-indent: -999px;
+        cursor: pointer;
+        border-radius: 50%;
+        background: linear-gradient(180deg, #005be4 0%, rgba(0, 96, 241, 0) 100%), #004fc7;
+        background-clip: padding-box;
+        border: 1px solid #0045ac;
+        opacity: 0.35;
+      }
+      .active {
+        opacity: $carousel-indicator-active-opacity;
+      }
+    }
   }
 
   .carousel-control-prev {
@@ -80,7 +101,6 @@
     background: #ffffff;
     box-shadow: 0px 0px 21px rgba(64, 68, 75, 0.14);
     border-radius: 8px;
-    bottom: -107px;
     &-icon {
       border-left: 3px solid rgba(0, 69, 203, 0.8);
       border-bottom: 3px solid rgba(0, 69, 203, 0.8);
@@ -95,7 +115,6 @@
     background: #ffffff;
     box-shadow: 0px 0px 21px rgba(64, 68, 75, 0.14);
     border-radius: 8px;
-    bottom: -107px;
     left: 144px;
     &-icon {
       border-right: 3px solid rgba(0, 69, 203, 0.8);
@@ -106,7 +125,7 @@
 
   .carousel-indicators {
     right: -55px;
-    bottom: -40px;
+    bottom: -55px;
     left: 0;
   }
 }
