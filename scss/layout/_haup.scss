@@ -10,6 +10,7 @@
 }
 
 .item {
+  position: relative;
   font-size: 16px;
   line-height: 2.22;
   list-style: none;
@@ -19,6 +20,8 @@
     margin-bottom: 50px;
   }
   &:before {
+    top: 8px;
+    left: -36px;
     counter-increment: myList;
     content: counter(myList);
     color: #45494f;
@@ -31,5 +34,79 @@
     margin-right: 15px;
     border: 2px solid #45494f;
     border-radius: 50%;
+  }
+}
+
+.carousel-control-prev {
+  visibility: hidden;
+}
+.carousel-control-next {
+  visibility: hidden;
+}
+
+@media screen and (min-width: 1200px) {
+  .hauptmerkmale {
+    padding: 43px 75px;
+    margin-bottom: 74px;
+  }
+  .haup-list {
+    display: flex;
+  }
+
+  .list-child {
+    margin-right: 53px;
+    width: 845px;
+  }
+
+  .item {
+    font-size: 17px;
+    line-height: 2.09;
+    letter-spacing: -0.4px;
+    &::before {
+      position: absolute;
+    }
+  }
+  .carousel {
+    margin: 0 auto;
+    width: 610px;
+    height: 813px;
+    margin-bottom: 185px;
+  }
+
+  .carousel-control-prev {
+    visibility: visible;
+    width: 126px;
+    height: 78px;
+    background: #ffffff;
+    box-shadow: 0px 0px 21px rgba(64, 68, 75, 0.14);
+    border-radius: 8px;
+    bottom: -107px;
+    &-icon {
+      border-left: 3px solid rgba(0, 69, 203, 0.8);
+      border-bottom: 3px solid rgba(0, 69, 203, 0.8);
+      transform: rotate(45deg);
+    }
+  }
+
+  .carousel-control-next {
+    visibility: visible;
+    width: 126px;
+    height: 78px;
+    background: #ffffff;
+    box-shadow: 0px 0px 21px rgba(64, 68, 75, 0.14);
+    border-radius: 8px;
+    bottom: -107px;
+    left: 144px;
+    &-icon {
+      border-right: 3px solid rgba(0, 69, 203, 0.8);
+      border-top: 3px solid rgba(0, 69, 203, 0.8);
+      transform: rotate(45deg);
+    }
+  }
+
+  .carousel-indicators {
+    right: -55px;
+    bottom: -40px;
+    left: 0;
   }
 }

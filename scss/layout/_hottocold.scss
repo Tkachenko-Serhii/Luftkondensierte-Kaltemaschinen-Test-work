@@ -10,3 +10,9 @@
 .carousel {
   margin-bottom: 68px;
 }
+
+@media screen and (min-width: 1200px) {
+  .section-background {
+    padding: 67px 121px 82px 121px;
+  }
+}

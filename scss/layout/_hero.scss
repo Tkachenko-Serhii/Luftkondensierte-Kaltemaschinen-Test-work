@@ -2,12 +2,6 @@
   padding: 56px 8px 28px 8px;
 }
 
-@media screen and (min-width: 1200px) {
-  .hero-section {
-    padding: 103px 118px;
-  }
-}
-
 .text {
   text-align: start;
   font-weight: 600;
@@ -19,6 +13,75 @@
   margin-bottom: 60px;
 }
 
-.image {
+@media screen and (min-width: 1200px) {
+  .hero-section {
+    position: relative;
+    padding: 103px 118px;
+  }
+  .text {
+    margin: 0;
+    padding: 0;
+    width: 445px;
+    &::after {
+      content: "";
+      display: block;
+      align-items: center;
+      width: 227px;
+      height: 7px;
+      margin: 0;
+      margin-top: 60px;
+      background-color: #edeff3;
+      margin-bottom: 108px;
+    }
+  }
+
+  .head-img {
+    position: absolute;
+    right: 40px;
+    top: 23px;
+    width: 653px;
+    height: 655px;
+  }
+}
+
+.energy-focus {
+  padding: 28px 0 28px 0;
+}
+
+.description {
+  font-size: 17px;
+  line-height: 1.88;
+  padding: 0 8px 0 8px;
+  color: #45494f;
+  margin-bottom: 32px;
+}
+
+.desc-text {
+  color: #020303;
+}
+
+.focus-img {
   margin-bottom: 8px;
+}
+
+@media screen and (min-width: 1200px) {
+  .focus-img {
+    height: 477px;
+    width: 846px;
+    margin-left: -125px;
+    margin-right: -14px;
+  }
+
+  .energy-focus {
+    padding: 0;
+    display: flex;
+  }
+
+  .description {
+    padding: 0;
+  }
+
+  .imfocus {
+    padding-top: 33px;
+  }
 }

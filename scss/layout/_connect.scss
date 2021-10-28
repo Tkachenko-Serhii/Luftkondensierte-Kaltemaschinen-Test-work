@@ -50,3 +50,45 @@
     }
   }
 }
+.logo-black {
+  margin: 0 auto;
+  margin-bottom: 27px;
+}
+
+@media screen and (min-width: 1200px) {
+  .connect {
+    padding: 75px 121px;
+    &-btn {
+      margin-left: 483px;
+      min-width: 306px;
+      &::before {
+        left: 70px;
+      }
+      &::after {
+        width: 79px;
+      }
+    }
+    &-desc {
+      padding: 0;
+      &-mod {
+        padding: 0;
+      }
+    }
+  }
+  .connect-style {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .connect-content {
+    display: flex;
+    align-items: center;
+  }
+  .text-decoration {
+    margin-left: 90px;
+    max-width: 388px;
+  }
+  .logo-black {
+    margin-left: 96px;
+  }
+}

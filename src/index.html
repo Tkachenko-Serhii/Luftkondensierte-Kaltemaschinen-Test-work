@@ -15,10 +15,15 @@
   <body>
     <div class="header-container">
       <header class="container doc-container">
-        <nav class="navbar navbar-expand-xxl navbar-light bg-light navigation">
+        <nav class="navbar navbar-expand-xl navbar-light bg-light navigation">
           <div class="container-fluid">
             <a class="navbar-brand logo" href="#">
-              <img src="./images/logo.png" alt="" width="104px" height="39px" />
+              <img
+                src="./images/logo.png"
+                alt="Image"
+                width="104px"
+                height="39px"
+              />
             </a>
             <button
               class="navbar-toggler"
@@ -151,44 +156,65 @@
     </div>
     <main class="container">
       <section class="hero-section">
-        <h1 class="title-hero">
-          Luftkondensierte Kältemaschinen <br />
-          & Kaltwassersätze
-        </h1>
-        <img
-          src="./images/img1.png"
-          alt="Air Colled Chillers Small - MRS Transparent3_3 3"
-        />
-        <p class="text">
-          Aufgrund der kompakten Bauart werden platzsparende luftkondensierte
-          Kompressionskältemaschinen (umgangsspr. „Kaltwassersätze“) vielseitig
-          zur Prozesskühlung und Gebäudeklimatisierung eingesetzt.
-        </p>
-        <img
-          class="image"
-          src="./images/img2.png"
-          alt="Multistage MSW-MSA - Refrigeration Systems 2"
-        />
-      </section>
-      <section class="energy-focus">
-        <h2 class="title">ENERGIEEFFIZIENZ IM FOKUS</h2>
-        <p class="description">
-          Bei der Anschaffung sollte deshalb besonders auf
-          <b class="desc-text">energieeffiziente Systeme</b> geachtet werden,
-          denn die Betriebskosten der Anlage überschreiten erfahrungsgemäß über
-          die Lebensdauer hinweg die einmaligen Anschaffungskosten um ein
-          vielfaches.
-        </p>
-        <p class="description">
-          Insofern sind die Themen Kompressortechnik und Einsatz von Freikühlung
-          von besonderer Bedeutung, sowie Steuer- und Regelungstechnik besonders
-          wichtig.
-        </p>
+        <div class="hero-desk">
+          <h1 class="title-hero">
+            Luftkondensierte Kältemaschinen <br />
+            & Kaltwassersätze
+          </h1>
+          <picture>
+            <source
+              srcset="./images/img1-desk.png"
+              media="(min-width: 1200px)"
+            />
+            <img
+              src="./images/img1.png"
+              alt="Air Colled Chillers Small - MRS Transparent3_3 3"
+              class="head-img"
+            />
+          </picture>
+
+          <p class="text">
+            Aufgrund der kompakten Bauart werden platzsparende luftkondensierte
+            Kompressionskältemaschinen (umgangsspr. „Kaltwassersätze“)
+            vielseitig zur Prozesskühlung und Gebäudeklimatisierung eingesetzt.
+          </p>
+        </div>
+        <div class="energy-focus">
+          <picture>
+            <source
+              srcset="./images/img2-desk.png"
+              media="(min-width: 1200px)"
+            />
+            <img
+              class="focus-img"
+              src="./images/img2.png"
+              alt="Multistage MSW-MSA - Refrigeration Systems 2"
+            />
+          </picture>
+          <div class="imfocus">
+            <h2 class="title">ENERGIEEFFIZIENZ IM FOKUS</h2>
+            <p class="description">
+              Bei der Anschaffung sollte deshalb besonders auf
+              <b class="desc-text">energieeffiziente Systeme</b> geachtet
+              werden, denn die Betriebskosten der Anlage überschreiten
+              erfahrungsgemäß über die Lebensdauer hinweg die einmaligen
+              Anschaffungskosten um ein vielfaches.
+            </p>
+            <p class="description">
+              Insofern sind die Themen Kompressortechnik und Einsatz von
+              Freikühlung von besonderer Bedeutung, sowie Steuer- und
+              Regelungstechnik besonders wichtig.
+            </p>
+          </div>
+        </div>
       </section>
       <section class="modern">
-        <img src="./images/img3.png" alt="asv4sabu" class="mod-img" />
+        <picture>
+          <source srcset="./images/img3-desk.png" media="(min-width: 1200px)" />
+          <img src="./images/img3.png" alt="asv4sabu" class="mod-img" />
+        </picture>
         <div class="mod-text">
-          <h2 class="title-modern">MODERNSTE STANDARDS</h2>
+          <h2 class="title title-modern">MODERNSTE STANDARDS</h2>
           <p class="modern-desc">
             Aktuelle Richtlinien und Verordnungen bezüglich des
             <b>Kältemittel Phase-Downs</b>
@@ -273,7 +299,7 @@
           <div class="hauptmerkmale">
             <h3 class="title-black">HAUPTMERKMALE</h3>
             <ol class="haup-list">
-              <div>
+              <div class="list-child">
                 <li class="item">
                   25 verschiedene Modelle von
                   <b>6 kW bis 600 kW</b> Kühlleistung
@@ -361,25 +387,43 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img
-                  src="./images/slide1.png"
-                  class="d-block w-100"
-                  alt="slide1"
-                />
+                <picture>
+                  <source
+                    srcset="./images/slide-desk.png"
+                    media="(min-width: 1200px)"
+                  />
+                  <img
+                    src="./images/slide.png"
+                    class="d-block w-100"
+                    alt="slide1"
+                  />
+                </picture>
               </div>
               <div class="carousel-item">
-                <img
-                  src="./images/slide1.png"
-                  class="d-block w-100"
-                  alt="slide2"
-                />
+                <picture>
+                  <source
+                    srcset="./images/slide-desk.png"
+                    media="(min-width: 1200px)"
+                  />
+                  <img
+                    src="./images/slide.png"
+                    class="d-block w-100"
+                    alt="slide2"
+                  />
+                </picture>
               </div>
               <div class="carousel-item">
-                <img
-                  src="./images/slide1.png"
-                  class="d-block w-100"
-                  alt="slide3"
-                />
+                <picture>
+                  <source
+                    srcset="./images/slide-desk.png"
+                    media="(min-width: 1200px)"
+                  />
+                  <img
+                    src="./images/slide.png"
+                    class="d-block w-100"
+                    alt="slide3"
+                  />
+                </picture>
               </div>
             </div>
             <button
@@ -434,30 +478,39 @@
         </div>
       </section>
       <section class="connect">
-        <img src="./images/logoblack.png" alt="Logo black" />
-        <h2 class="title title-transform">Jetzt Termin vereinbaren!</h2>
-        <p class="connect-desc">
-          Gerne stehen wir Ihnen für eine individuelle Beratung telefonisch und
-          vor.
-        </p>
-        <p class="connect-desc connect-desc-mod">
-          Ort zur Verfügung und freuen uns über Ihre Kontaktaufnahme. Sprechen
-          Sie uns an!
-        </p>
-        <p class="connect-desc">
-          Fragen Sie nach einem Rückruf oder kontaktieren Sie uns unter:
-          <a href="mailto:info@elsasser-technik.de" class="mail"
-            >info@elsasser-technik.de</a
-          >
-        </p>
-        <a href="#"
-          ><button type="button" class="dieser-btn connect-btn">
-            Kontakt
-          </button></a
-        >
+        <div class="connect-style">
+          <picture>
+            <source
+              srcset="./images/logoblack-desk.png"
+              media="(min-width: 1200px)"
+            />
+            <img
+              src="./images/logoblack.png"
+              alt="Logo black"
+              class="logo-black"
+            />
+          </picture>
+          <div class="connect-content">
+            <h2 class="title title-transform">Jetzt Termin vereinbaren!</h2>
+            <div class="text-decoration">
+              <p class="connect-desc connect-desc-mod">
+                Gerne stehen wir Ihnen für eine individuelle Beratung
+                telefonisch und vor. Ort zur Verfügung und freuen uns über Ihre
+                Kontaktaufnahme. Sprechen Sie uns an!
+              </p>
+              <p class="connect-desc">
+                Fragen Sie nach einem Rückruf oder kontaktieren Sie uns unter:
+                <a href="mailto:info@elsasser-technik.de" class="mail"
+                  >info@elsasser-technik.de</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="dieser-btn connect-btn">Kontakt</button>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer container">
       <address>
         <h2 class="footer-text">Elsässer Kältetechnik</h2>
         <p class="footer-text footer-text-mod address">

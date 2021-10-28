@@ -20,3 +20,19 @@
 .mod-img {
   margin-bottom: 39px;
 }
+
+@media screen and (min-width: 1200px) {
+  .modern {
+    display: flex;
+    padding: 0;
+  }
+  .mod-img {
+    margin: 0;
+  }
+  .mod-text {
+    padding: 145px 180px;
+  }
+  .modern-desc {
+    width: 425px;
+  }
+}

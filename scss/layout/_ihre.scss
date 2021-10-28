@@ -8,6 +8,8 @@
   align-items: center;
   min-width: 358px;
   min-height: 136px;
+  margin-top: 9px;
+  margin-left: 9px;
   padding-right: 45px;
   font-weight: 500;
   font-size: 18px;
@@ -62,5 +64,20 @@
   & > .img10 {
     padding-left: 32px;
     margin-right: 40px;
+  }
+}
+
+@media screen and(min-width:1200px) {
+  .ihre-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -9px;
+    margin-left: -9px;
+  }
+  .ihre-item {
+    flex-basis: calc(100% / 3 - 9px);
+    &:not(:last-child) {
+      margin-bottom: 0;
+    }
   }
 }
