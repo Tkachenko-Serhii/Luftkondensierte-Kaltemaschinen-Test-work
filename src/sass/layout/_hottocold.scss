@@ -15,4 +15,15 @@
   .section-background {
     padding: 67px 121px 82px 121px;
   }
+
+  .hottocold-desk {
+    position: relative;
+    padding: 91px 0 108px 121px;
+    .img-gradient {
+      position: absolute;
+      right: 0;
+      top: 55px;
+      z-index: -1;
+    }
+  }
 }

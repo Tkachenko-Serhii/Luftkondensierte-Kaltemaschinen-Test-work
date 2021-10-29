@@ -34,3 +34,37 @@ a.footer-link {
   line-height: 2.62;
   text-decoration: underline;
 }
+
+@media screen and (min-width: 1200px) {
+  .footer {
+    display: flex;
+    padding: 49px 121px 56px 121px;
+    border-top: 2px solid #eef0f4;
+    &-text {
+      font-size: 17px;
+      line-height: 1.88;
+      &-mod {
+        font-size: 17px;
+        line-height: 1.88;
+      }
+    }
+    &-contact {
+      margin-right: 165px;
+    }
+  }
+  .footer-address {
+    display: flex;
+  }
+  .footer-list {
+    display: flex;
+    &-child {
+      margin-right: 130px;
+    }
+  }
+  .address {
+    width: 290px;
+  }
+  .city {
+    margin-right: 110px;
+  }
+}

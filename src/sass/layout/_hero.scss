@@ -23,7 +23,7 @@
     padding: 0;
     width: 445px;
     &::after {
-      content: "";
+      content: '';
       display: block;
       align-items: center;
       width: 227px;
@@ -83,5 +83,12 @@
 
   .imfocus {
     padding-top: 33px;
+  }
+  .description {
+    z-index: 1;
+    width: 550px;
+    &-style {
+      width: 570px;
+    }
   }
 }
